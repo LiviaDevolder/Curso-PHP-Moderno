@@ -16,33 +16,47 @@
     $num = 0x1A;
     echo "O valor da variável é $num";
 
-    echo "</br>";
+    echo "</br></br>";
 
     $v = 45.2;
     var_dump($v);
 
-    echo "</br>";
+    echo "</br></br>";
 
     $num = 3e2;
     echo "O valor é $num";
     var_dump($num);
 
-    echo "</br>";
+    echo "</br></br>";
 
     $num2 = (float) "950"; // Coerção
     var_dump($num);
 
-    echo "</br>";
+    echo "</br></br>";
 
     $casado = false;
     var_dump($casado);
     print "O valor para casado é $casado";
 
-    echo "</br>";
+    echo "</br></br>";
 
     var_dump($casado);
     $casado = true;
     print "O valor para casado é $casado";
+
+    echo "</br></br>";
+
+    $vet = [6, 2.5, "Camila", 3, false];
+    var_dump($vet);
+
+    echo "</br></br>";
+
+    class Pessoa {
+      private string $nome;
+    }
+
+    $p = new Pessoa;
+    var_dump($p)
   ?>
 </body>
 </html>
